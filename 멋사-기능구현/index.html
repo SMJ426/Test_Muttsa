@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>멋사 반편성 문제</title>
+        <link rel="stylesheet" href="/src/css/reset.css" />
+        <link rel="stylesheet" href="/src/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <img
+                class="img_logo"
+                src="./img/weniv_logo.svg"
+                alt="위니브 로고"
+            />
+        </header>
+
+        <div class="box_wrapper">
+            <h2 class="title_clock">TIMER</h2>
+            <hr />
+            <div class="box_clock">
+                <form>
+                    <label>HRS<input type="number" id="hrs" /></label>
+                    <label>MIN<input type="number" id="min" /></label>
+                    <label>SEC<input type="number" id="sec" /></label>
+                </form>
+            </div>
+
+            <div class="btn-wrapper">
+                <button class="btn start" onclick="startTimer()">
+                    <img src="./img/icon-start.svg" />START
+                </button>
+                <button class="btn reset" onclick="resetTimer()">
+                    <img src="./img/icon-reset-disabled.svg" />RESET
+                </button>
+            </div>
+        </div>
+
+        <footer>ⓒ WENIV Corp.</footer>
+        <script src="/src/js/index.js"></script>
+    </body>
+</html>

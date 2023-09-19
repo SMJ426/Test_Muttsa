@@ -1,0 +1,134 @@
+body {
+    width: 1280px;
+    height: 960px;
+    background: var(
+        --gradient2,
+        radial-gradient(
+            293.21% 130.49% at 3.59% 5.28%,
+            #f0f4ff 0%,
+            #a5b6ee 100%
+        )
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.img_logo {
+    display: block;
+    width: 244px;
+    height: 48px;
+    margin-top: 72px;
+}
+
+/* 박스디자인 */
+.box_wrapper {
+    width: 400px;
+    height: 360px;
+    border-radius: 16px;
+    background: var(
+        --gradient,
+        linear-gradient(144deg, #5572bb 2.13%, #374b7c 102.97%)
+    );
+    /* shadow */
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    font-family: "Pretendard";
+    text-align: center;
+}
+
+.title_clock {
+    padding-top: 48px;
+    padding-bottom: 23px;
+    color: #fff;
+    text-align: center;
+
+    /* Bold_24px */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+hr {
+    width: 312px;
+    height: 1px;
+    background-color: #3d538a;
+}
+
+.box_clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 33px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    position: relative;
+}
+.box > p {
+    color: var(--light, #a5b6ee);
+    text-align: center;
+
+    /* Bold_12px */
+    font-family: "Pretendard";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+}
+.text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+    /* Bold_40px */
+    font-family: "Pretendard";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* 버튼 구현 */
+.btn-wrapper {
+    padding-top: 60px;
+}
+input {
+    width: 80px;
+    height: 80px;
+}
+/* footer */
+footer {
+    color: #8596bf;
+    text-align: center;
+
+    /* Regular_14px */
+    font-family: "Pretendard";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn {
+    width: 112px;
+    height: 48px;
+
+    border-radius: 50px;
+    background: #324577;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.05) inset;
+    border: none;
+}
+.start {
+    margin-right: 12px;
+}
